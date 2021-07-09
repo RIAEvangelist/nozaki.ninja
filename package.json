@@ -1,0 +1,33 @@
+{
+  "name": "nozaki.ninja",
+  "version": "0.0.0",
+  "description": "nozaki.ninja website api",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nozaki": "^1.0.0",
+    "nozaki-colors": "^1.0.1",
+    "nozaki-components": "0.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RIAEvangelist/nozaki.ninja.git"
+  },
+  "keywords": [
+    "nozaki",
+    "ninja",
+    "api"
+  ],
+  "author": "Brandon Nozaki Miller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RIAEvangelist/nozaki.ninja/issues"
+  },
+  "homepage": "https://github.com/RIAEvangelist/nozaki.ninja#readme"
+}
